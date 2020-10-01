@@ -3,7 +3,7 @@ import './card.css';
 
 function Card(props){
   
-      console.log("props of card:", props)
+     //console.log("props of card:", props)
       return (
     <div className="Card">
       <button type="button" onClick={()=>props.onDelete(props.id)}>delete</button>
